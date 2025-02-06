@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90c0f5c2842540a0a06547860d287257" Name="Diagram1">
+        <EntityTypeShape EntityType="PankovDemo2025Model.Agent" Width="1.5" PointX="11" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.AgentPriorityHistory" Width="1.5" PointX="13.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.AgentType" Width="1.5" PointX="8.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.Material" Width="1.5" PointX="3" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.MaterialCountHistory" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.MaterialType" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.Product" Width="1.5" PointX="6" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.ProductCostHistory" Width="1.5" PointX="8.25" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.ProductMaterial" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.ProductSale" Width="1.5" PointX="16.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.ProductType" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.Shop" Width="1.5" PointX="13.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.Supplier" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PankovDemo2025Model.Unit" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_Agent_AgentType" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_AgentPriorityHistory_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_ProductSale_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_Shop_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_Material_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_Material_Unit" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_MaterialCountHistory_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_ProductMaterial_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_ProductCostHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_ProductMaterial_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="PankovDemo2025Model.MaterialSupplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

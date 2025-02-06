@@ -14,3 +14,16 @@ C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateRe
 C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\ProductsPage.g.cs
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_Content.g.cs
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\ProductsPage.baml
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\CreateProduct.g.cs
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Pages\CreateProduct.baml
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Windows\EditProductWindow.g.cs
+C:\Users\162103\source\repos\WpfApp1\WpfApp1\obj\Debug\Windows\EditProductWindow.baml

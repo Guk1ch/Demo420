@@ -1,0 +1,64 @@
+﻿<Page x:Class="WpfApp1.Pages.CreateProduct"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CreateProduct">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="800"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+            <TextBlock Margin="0,0,0,10" FontSize="20" FontWeight="SemiBold" Foreground="#A163F5">Добавление продукта</TextBlock>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Наименование:</TextBlock>
+                <TextBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="TitleTB"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Артикул:</TextBlock>
+                <TextBox  Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="ArticleNumberTB"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock  Margin="0,0,0,5">Тип продукта:</TextBlock>
+                <ComboBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="ProductTypeTB"></ComboBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Количество человек для производства:</TextBlock>
+                <TextBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="ProductionPersonCountTB"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Номер производственного цеха:</TextBlock>
+                <TextBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="ProductionWorkshopNumberTB"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Минимальная стоимость для агента:</TextBlock>
+                <TextBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="MinCostForAgentTB"></TextBox>
+            </StackPanel>
+
+            <StackPanel Margin="0,0,0,10">
+                <TextBlock Margin="0,0,0,5">Описание:</TextBlock>
+                <TextBox Padding="4,8" BorderBrush="#A163F5" BorderThickness="2" Name="DescriptionTB"></TextBox>
+            </StackPanel>
+
+            <Button Click="Create_Button_Click" Padding="4,8" Background="#A163F5" Cursor="Hand"  BorderThickness="0" Foreground="#FFFFFF">Добавить продукцию</Button>
+        </StackPanel>
+    </Grid>
+</Page>

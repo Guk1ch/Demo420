@@ -23,6 +23,7 @@ namespace ProductStoreEgor
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.NavigationService.Navigate(new Pages.EnterPage());
         }
     }
 }

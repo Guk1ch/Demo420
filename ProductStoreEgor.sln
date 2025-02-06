@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductStoreEgor", "ProductStoreEgor\ProductStoreEgor.csproj", "{F4C43E6A-56CC-4C2C-951E-285D0EB23210}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{07EC2D88-AE19-44D1-ADC3-A1FCF3BD3D9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagram", "Diagram", "{366DD2FB-128E-49A9-AFFB-C86D3C123CCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

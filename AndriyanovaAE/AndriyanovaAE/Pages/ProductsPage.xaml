@@ -1,0 +1,120 @@
+﻿<Page x:Class="AndriyanovaAE.Pages.ProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AndriyanovaAE.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="1000" d:DesignWidth="1800"
+      Title="ProductsPage">
+
+    <Grid>
+        <!--шаблон рамзетки-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition />
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="90"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Image Source="\logo.png" Width="100"/>
+        <TextBlock Text="Восьмёрка Company" TextWrapping="Wrap" 
+                   Grid.Column="1"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="Продукция компании" 
+                   Style="{StaticResource main}"
+                   Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2"
+                   HorizontalAlignment="Center"/>
+        <Button x:Name="backBtn" Content="назад"
+                Grid.Row="1" Grid.ColumnSpan="2"
+                Width="200" Click="backBtn_Click"/>
+        <!--основная часть-->
+        <StackPanel Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" 
+                    
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel Orientation="Horizontal" Margin=" 0 10">
+                <TextBox x:Name="serchTb" Width="400" 
+                         TextChanged="serchTb_TextChanged"
+                         BorderThickness="2"
+                         BorderBrush="#A163F5"/>
+                <TextBlock Text="Стоимость:" Margin="20 0 0 0"/>
+                <ComboBox Width="300" Name="costCb" 
+                          SelectionChanged="costCb_SelectionChanged"
+                          Margin="0 0 50 0">
+                    <ComboBoxItem>
+                        <TextBlock Text="По возрастанию"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <TextBlock Text="По убыванию"/>
+                    </ComboBoxItem>
+                    <ComboBoxItem>
+                        <TextBlock Text="Без сортировки"/>
+                    </ComboBoxItem>
+                </ComboBox>
+                <TextBlock Text="Тип:" Margin="20 0 0 0"/>
+                <ComboBox Width="300" Name="typeCb" 
+                          ItemsSource="{Binding productTypes}"
+                          
+                          Margin="0 0 50 0" SelectionChanged="typeCb_SelectionChanged">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Title}"/>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                
+            </StackPanel>
+            <ListView d:ItemsSource="{d:SampleData ItemCount=9}" 
+                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                      Width="1320" Height="500"
+                      Name="productsLv">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Width="1320">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="250"/>
+                                <ColumnDefinition Width="10"/>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="450"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Photo}" Width="200" Height="200"/>
+                            <StackPanel Grid.Column="2">
+                            <StackPanel Orientation="Horizontal"  >
+                                    <TextBlock Text="{Binding ProductType.Title}"  FontSize="33"/>
+                                <TextBlock Text=" | "/>
+                                    <TextBlock Text="{Binding Title}" FontSize="33"/>
+                            </StackPanel>
+                                <TextBlock Text="{Binding ArticleNumber}" FontSize="30"/>
+                                <TextBlock Text="Материалы: " FontSize="30"/>
+                                
+                            </StackPanel>
+                            <TextBlock Grid.Column="3" HorizontalAlignment="Center" Text="{Binding MinCostForAgent}"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+            <StackPanel Margin="0 30" HorizontalAlignment="Left" Orientation="Horizontal">
+                <Button Content="+" x:Name="addBtn" Width="90" Height="90" Click="addBtn_Click" />
+                <Button Content="..." x:Name="editBtn" Width="90" Height="90" Margin="20 0" RenderTransformOrigin="0.5,0.5" Click="editBtn_Click">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="-90"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

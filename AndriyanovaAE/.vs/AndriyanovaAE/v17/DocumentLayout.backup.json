@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|c:\\users\\202103\\source\\repos\\demoandriyanova\\andriyanovaae\\andriyanovaae\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|solutionrelative:andriyanovaae\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|c:\\users\\202103\\source\\repos\\demoandriyanova\\andriyanovaae\\andriyanovaae\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|solutionrelative:andriyanovaae\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|c:\\users\\202103\\source\\repos\\demoandriyanova\\andriyanovaae\\andriyanovaae\\pages\\productaddpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|solutionrelative:andriyanovaae\\pages\\productaddpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|c:\\users\\202103\\source\\repos\\demoandriyanova\\andriyanovaae\\andriyanovaae\\pages\\productaddpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|solutionrelative:andriyanovaae\\pages\\productaddpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|c:\\users\\202103\\source\\repos\\demoandriyanova\\andriyanovaae\\andriyanovaae\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F2854C6F-1E91-400D-B76B-B1A5BD9C74FB}|AndriyanovaAE\\AndriyanovaAE.csproj|solutionrelative:andriyanovaae\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "AndriyanovaAE\\Pages\\ProductsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "AndriyanovaAE\\Pages\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:46:08.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "AndriyanovaAE\\Pages\\ProductsPage.xaml",
+              "ToolTip": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductsPage.xaml",
+              "RelativeToolTip": "AndriyanovaAE\\Pages\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-06T15:46:07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "AndriyanovaAE\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "AndriyanovaAE\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-06T15:45:49.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Pages\\ProductAddPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductAddPage.xaml.cs",
+              "RelativeDocumentMoniker": "AndriyanovaAE\\Pages\\ProductAddPage.xaml.cs",
+              "ToolTip": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductAddPage.xaml.cs",
+              "RelativeToolTip": "AndriyanovaAE\\Pages\\ProductAddPage.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T15:26:55.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductAddPage.xaml",
+              "DocumentMoniker": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductAddPage.xaml",
+              "RelativeDocumentMoniker": "AndriyanovaAE\\Pages\\ProductAddPage.xaml",
+              "ToolTip": "C:\\Users\\202103\\source\\repos\\DemoAndriyanova\\AndriyanovaAE\\AndriyanovaAE\\Pages\\ProductAddPage.xaml",
+              "RelativeToolTip": "AndriyanovaAE\\Pages\\ProductAddPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-06T15:17:07.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

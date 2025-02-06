@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ProductsKudashovaAnna420.Pages;
 
 namespace ProductsKudashovaAnna420
 {
@@ -23,6 +24,7 @@ namespace ProductsKudashovaAnna420
         public MainWindow()
         {
             InitializeComponent();
+            navFr.NavigationService.Navigate(new AllProductsPage());
         }
     }
 }

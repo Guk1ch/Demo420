@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:ProductsKudashovaAnna420"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="Background" Value="#A163F5"/>
+            <Setter Property="FontFamily"  Value="Courier New"/>
+            <Setter Property="FontSize" Value="21"/>
+        </Style>
     </Application.Resources>
 </Application>

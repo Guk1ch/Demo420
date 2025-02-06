@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_Podgotovka_Mukachev.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,7 @@ namespace Demo_Podgotovka_Mukachev
         public MainWindow()
         {
             InitializeComponent();
-            MainFrame.Navigate(new )
+            MainFrame.Navigate(new NavigationPage());
         }
     }
 }

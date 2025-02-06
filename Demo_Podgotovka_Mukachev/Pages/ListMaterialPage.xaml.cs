@@ -23,6 +23,7 @@ namespace Demo_Podgotovka_Mukachev.Pages
         public ListMaterialPage()
         {
             InitializeComponent();
+            MaterialLv.ItemsSource = App.db.Material.ToList();
         }
     }
 }

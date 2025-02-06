@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_Podgotovka_Mukachev.DB;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace Demo_Podgotovka_Mukachev
     /// </summary>
     public partial class App : Application
     {
+        public static vosmerka_demo_MukachevEntities db = new vosmerka_demo_MukachevEntities(); 
     }
 }

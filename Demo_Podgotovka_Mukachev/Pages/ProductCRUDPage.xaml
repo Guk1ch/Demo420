@@ -8,7 +8,23 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ProductCRUDPage">
 
-    <Grid>
-        
+    <Grid Background="White">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock FontSize="30" HorizontalAlignment="Center">Добавить продукцию</TextBlock>
+            <StackPanel Margin="20" Orientation="Horizontal">
+                <TextBlock FontSize="20">Артикль</TextBlock>
+                <TextBox x:Name="ArticleTb" Width="200"></TextBox>
+            </StackPanel>
+            <StackPanel Margin="20" Orientation="Horizontal">
+                <TextBlock FontSize="20">Название</TextBlock>
+                <TextBox x:Name="TitleTb" Width="200"></TextBox>
+            </StackPanel>
+            <StackPanel Margin="20" Orientation="Horizontal">
+                <TextBlock FontSize="20">Стоимость</TextBlock>
+                <TextBox x:Name="CostTb" Width="200"></TextBox>
+            </StackPanel>
+            
+
+        </StackPanel>
     </Grid>
 </Page>

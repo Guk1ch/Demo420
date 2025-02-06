@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_Podgotovka_Mukachev.DB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,16 @@ namespace Demo_Podgotovka_Mukachev.Pages
     /// </summary>
     public partial class ProductCRUDPage : Page
     {
+
         public ProductCRUDPage()
         {
             InitializeComponent();
+
+        }
+        public ProductCRUDPage(Product product)
+        {
+            InitializeComponent();
+
         }
     }
 }

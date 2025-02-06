@@ -9,5 +9,10 @@
             <Setter Property="FontFamily"  Value="Courier New"/>
             <Setter Property="FontSize" Value="21"/>
         </Style>
+
+        <Style TargetType="TextBlock" x:Key="TbxStyle">
+            <Setter Property="FontFamily"  Value="Courier New"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
     </Application.Resources>
 </Application>

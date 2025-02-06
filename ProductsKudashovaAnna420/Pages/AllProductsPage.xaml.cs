@@ -38,6 +38,8 @@ namespace ProductsKudashovaAnna420.Pages
         private void AddBtn_Click(object sender, RoutedEventArgs e)
         {
             NavigationService.Navigate(new AddProductPage());
+
+            Refresh();
         }
 
         private void DeleteBtn_Click(object sender, RoutedEventArgs e)
@@ -46,12 +48,57 @@ namespace ProductsKudashovaAnna420.Pages
             {
                 DBConnection.productsDemo.Product.Remove(product);
                 DBConnection.productsDemo.SaveChanges();
+
+                Refresh();
             }
         }
 
-        private void RedactBtn_Click(object sender, RoutedEventArgs e)
+        public void Refresh()
         {
+            ProductsLv.ItemsSource = new List<Product>(DBConnection.productsDemo.Product.ToList());
+        }
 
+        public void Refresh1()
+        {
+            List<Product> products = new List<Product>(DBConnection.productsDemo.Product.ToList());
+
+            if (SearchTbx.Text.Length > 0)
+            {
+                products = products.Where(i => i.Title.ToLower().StartsWith(SearchTbx.Text.Trim().ToLower())).ToList();
+
+                var name = TypeCbx.SelectedItem as ProductType;
+
+                if (TypeCbx.SelectedItem != null || name != null) 
+                {
+                    products = products.Where(i => i.ProductTypeID == name.ID).ToList();
+                }
+
+                ProductsLv.ItemsSource = products;
+            }
+
+            ProductsLv.ItemsSource = products;
+
+
+        }
+
+        private void SearchTbx_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            Refresh1();
+        }
+
+        private void TypeCbx_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Refresh1();
+        }
+
+        private void ProductsLv_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ProductsLv.SelectedItem is Product product)
+            {
+                NavigationService.Navigate(new EditProductPage(product));
+
+                Refresh();
+            }
         }
     }
 }

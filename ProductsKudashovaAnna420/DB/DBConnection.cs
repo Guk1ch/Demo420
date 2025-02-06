@@ -10,6 +10,7 @@ namespace ProductsKudashovaAnna420.DB
     {
         public static ProductsDemoKudashova420Entities productsDemo = new ProductsDemoKudashova420Entities();
 
+        public static Product selectedProduct;
 
     }
 }

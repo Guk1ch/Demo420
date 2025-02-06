@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="{x:Type Control}" x:Key="BaseStyle">
+        <Setter Property="FontFamily" Value="Segoe UI"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Foreground" Value="#333333"/>
+        <!-- Темно-серый текст -->
+    </Style>
+
+    <Style TargetType="{x:Type Label}" BasedOn="{StaticResource BaseStyle}" x:Key="HeaderStyle">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <Setter Property="Foreground" Value="#212121"/>
+        <Setter Property="FontFamily" Value="Comic Sans Ms"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <!-- Темно-серый цвет для заголовка -->
+    </Style>
+
+    <!-- Стиль для текста (обычного) -->
+    <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseStyle}" x:Key="TextStyle">
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="Background" Value="Black"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="FontFamily" Value="Comic Sans Ms"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+
+
+        <!-- Автоматический перенос текста -->
+    </Style>
+</ResourceDictionary>

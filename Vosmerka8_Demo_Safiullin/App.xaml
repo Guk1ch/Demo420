@@ -4,6 +4,32 @@
              xmlns:local="clr-namespace:Vosmerka8_Demo_Safiullin"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+    
+            <Style TargetType="{x:Type TextBlock}" x:Key="CommonText">
+                <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Width" Value="125"/>
+                <Setter Property="TextAlignment" Value="Right"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+                <Setter Property="TextWrapping" Value="Wrap"/>
+            </Style>
+            <Style TargetType="{x:Type TextBox}" x:Key="Textboxe">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Width" Value="125"/>
+            <Setter Property="TextAlignment" Value="Right"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+             </Style>
+             <Style TargetType="{x:Type ComboBox}" x:Key="Comboboxe">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="FontFamily" Value="Courier New"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Width" Value="125"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+
     </Application.Resources>
 </Application>

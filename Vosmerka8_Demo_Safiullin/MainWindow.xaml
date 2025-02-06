@@ -5,8 +5,33 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vosmerka8_Demo_Safiullin"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        ResizeMode="NoResize"
+         Title="{Binding Content.Title, ElementName=MainFrame}" MinHeight="600" Height="600" MinWidth="1000" Width="1000">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.ColumnSpan="8" Background="#D3D3D3">
+           <Image Source="/Resources/Восьмерка.png" Width="70" HorizontalAlignment="Left" VerticalAlignment="Center"/> 
+        </StackPanel>
         
+        <Frame Name="NavFr" Grid.Row="1" Grid.RowSpan="7" Grid.ColumnSpan="8"></Frame>
     </Grid>
 </Window>

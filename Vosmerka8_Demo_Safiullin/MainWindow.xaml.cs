@@ -23,6 +23,9 @@ namespace Vosmerka8_Demo_Safiullin
         public MainWindow()
         {
             InitializeComponent();
+            NavFr.Navigate(new Pages.MainPage());
+            
         }
+
     }
 }

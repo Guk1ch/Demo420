@@ -1,0 +1,13 @@
+﻿<Window x:Class="VosmerkaApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VosmerkaApp"
+        mc:Ignorable="d"
+        Title="Vosmerka" Height="1080" Width="1920"
+        Icon="C:\Users\202124\source\repos\VosmerkaApp\VosmerkaApp\Resources\icon.ico">
+    <Grid>
+        <Frame Name="MainFrame" Background="#D3D3D3"></Frame>
+    </Grid>
+</Window>
